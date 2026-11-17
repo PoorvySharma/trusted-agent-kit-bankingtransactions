@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>How long a request waits for a decision, and how long an approval stays usable (default 60).</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <fullName>Approval_Expiry_Minutes__c</fullName>
+    <label>Approval Expiry Minutes</label>
+    <precision>6</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+</CustomField>

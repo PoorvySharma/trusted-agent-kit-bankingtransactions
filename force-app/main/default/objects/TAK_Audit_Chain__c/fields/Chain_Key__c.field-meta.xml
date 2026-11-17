@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseSensitive>true</caseSensitive>
+    <description>Unique key of the chain (DEFAULT).</description>
+    <externalId>true</externalId>
+    <fullName>Chain_Key__c</fullName>
+    <label>Chain Key</label>
+    <length>40</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

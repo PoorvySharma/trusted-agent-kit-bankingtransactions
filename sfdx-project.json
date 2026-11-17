@@ -1,0 +1,20 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "Trusted Agent Kit",
+      "versionName": "v0.1 - Initial release",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "Governance kit for AI agents in regulated banking: policy enforcement, prompt-injection screening, human approval gates, PII masking and a tamper-evident audit log."
+    },
+    {
+      "path": "demo",
+      "default": false
+    }
+  ],
+  "name": "trusted-agent-kit",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "62.0"
+}

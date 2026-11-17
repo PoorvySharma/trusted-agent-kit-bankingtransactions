@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>SHA-256 hash of the previous record in the chain.</description>
+    <fullName>Previous_Hash__c</fullName>
+    <label>Previous Hash</label>
+    <length>64</length>
+    <required>false</required>
+    <type>Text</type>
+</CustomField>

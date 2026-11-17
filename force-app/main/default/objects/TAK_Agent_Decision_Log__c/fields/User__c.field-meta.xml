@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>User the action ran as (agent user, employee, or approver).</description>
+    <fullName>User__c</fullName>
+    <label>User</label>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Agent Decision Logs</relationshipLabel>
+    <relationshipName>TAK_Agent_Decision_Logs</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

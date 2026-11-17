@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Approver who approved or rejected the request.</description>
+    <fullName>Decided_By__c</fullName>
+    <label>Decided By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Agent Approvals Decided</relationshipLabel>
+    <relationshipName>TAK_Approvals_Decided</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

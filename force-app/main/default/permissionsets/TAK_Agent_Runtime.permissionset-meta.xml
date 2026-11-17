@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>TAK_ExampleGetBalanceAction</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TAK_ExampleInitiateTransferAction</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TAK_ExampleUpdateContactAction</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TAK_GovernedActionRunner</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TAK_InitiateTransferAgentAction</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TAK_RunGovernedActionInvocable</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>TAK_Agent_Policy__mdt</name>
+    </customMetadataTypeAccesses>
+    <description>Assign to the Agentforce agent user (or employees who use employee agents). Lets the agent call governed actions; logging runs in system context.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Trusted Agent Kit - Agent Runtime</label>
+</PermissionSet>

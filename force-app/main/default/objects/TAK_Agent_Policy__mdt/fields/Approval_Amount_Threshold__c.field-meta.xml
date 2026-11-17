@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>If set, approval is needed only at or above this amount. Blank means always.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <fullName>Approval_Amount_Threshold__c</fullName>
+    <label>Approval Amount Threshold</label>
+    <precision>16</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+</CustomField>

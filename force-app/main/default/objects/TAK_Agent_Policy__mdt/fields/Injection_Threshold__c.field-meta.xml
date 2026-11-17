@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Block when the injection risk score reaches this value (default 50).</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <fullName>Injection_Threshold__c</fullName>
+    <label>Injection Threshold</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+</CustomField>
